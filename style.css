@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    background-image: url("https://wallpaperaccess.com/full/7790491.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 5s;
+
+    animation-name: animate ;
+    animation-direction: alternate-reverse;
+    animation-duration: 30s ;
+    animation-fill-mode: forwards;
+    animation-iteration-count:infinite ;
+    animation-play-state: running;
+    animation-timing-function:ease-in-out ;
+  }
+  @keyframes animate{
+    10%{
+        background-image: url("https://www.telugubulletin.com/wp-content/uploads/2021/12/Pushpa-Movie-Review.jpg");
+    }
+    30%{
+        background-image: url("https://telugutracks.com/wp-content/uploads/2021/12/Pushpa-Movie-Songs-Lyrics.jpg");
+    }
+    40%{
+        background-image: url("https://i.ytimg.com/vi/TwcDr-LSWl4/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGHIgUyhAMA8=&rs=AOn4CLDGgF-oG1ha1-cNGETUnjOrwI0xaA");
+    }
+    50%{
+        background-image: url("https://1.bp.blogspot.com/--f4akJe6LDc/YNI_14E6efI/AAAAAAAAEmc/n6uTplnJho8HpsanZOnLj8wIv2EGilmIwCLcBGAsYHQ/s640/Pushpa%2B3.jpg");
+    }
+    60%{
+        background-image: url("https://images.indianexpress.com/2021/12/WhatsApp-Image-2021-12-20-at-9.34.41-PM.jpeg");
+    }
+    80%{
+        background-image: url("https://tse3.mm.bing.net/th?id=OIP.v4hXp7UV4VosYfDMdXPltgHaFj&pid=Api&P=0&h=220");
+    }
+
+}
+  
+  .container {
+    background-image: url("https://i.ytimg.com/vi/wSKhKPzIXnM/maxresdefault.jpg");
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgb(191, 255, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background-attachment: fixed; */
+    margin-top:200px;
+    border: solid;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+  }
+  
+  h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    font-size: 100px;
+  }
+  
+  
+  .music-player {
+    margin-top: 50px;
+   
+  }
+  #audio{
+   
+    width: 500px;
+  }
+  #prev{
+    width: 100px;
+    height: 50px;
+  }
+  #play{
+    width: 100px;
+    height: 50px;
+  }
+  #next{
+    width: 100px;
+    height: 50px;
+  }
+  
